@@ -20,7 +20,7 @@ Adds a shortcode and action to add a "Delete Post" link to posts so user's can d
 
 `[sewn_post_delete_link text="Bye bye post" before="" after="" title="" class=""] // Will change the link text to "Bye bye post"`
 
-== Attributes ==
+** Attributes **
 
 These are the same arguments for in template action below.
 
@@ -38,7 +38,7 @@ This will show the link to users have the ability to use it.
 
 `do_action('sewn/post_delete/link', array('text'=>"Bye bye post", 'before'=>'', 'after'=>'', title=>'', 'class'=>''));`
 
-== Installation ==
+= Installation =
 
 * Install plugin either via the WordPress.org plugin directory, or by uploading the files to your server.
 * Activate the plugin via the Plugins admin page.
